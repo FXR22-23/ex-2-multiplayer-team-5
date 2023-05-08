@@ -1919,6 +1919,14 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 33611430
       objectReference: {fileID: 0}
+    - target: {fileID: 5752821227605362521, guid: fde30db94842987459cb86f30592ac29, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 60fc92d6f342ba147a9feaf3ae587168, type: 3}
+    - target: {fileID: 5752821227605362521, guid: fde30db94842987459cb86f30592ac29, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 010867107895d8b41a6d158971dfebb8, type: 2}
     - target: {fileID: 9128541586770874413, guid: fde30db94842987459cb86f30592ac29, type: 3}
       propertyPath: head.vrTarget
       value: 
