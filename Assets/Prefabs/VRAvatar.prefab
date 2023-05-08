@@ -435,6 +435,8 @@ GameObject:
   - component: {fileID: 9128541586770874412}
   - component: {fileID: 9128541586770874415}
   - component: {fileID: 9128541586770874413}
+  - component: {fileID: 1199321967656124678}
+  - component: {fileID: 5818574863643976078}
   m_Layer: 0
   m_Name: VRAvatar
   m_TagString: Player
@@ -762,6 +764,40 @@ MonoBehaviour:
   turnSmoothness: 0
   ikHead: {fileID: 9128541587592253601}
   headBodyOffset: {x: 0, y: -1.62, z: 0}
+--- !u!114 &1199321967656124678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805247728725153664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffd94bb2a401ff48814cf6947ac6db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  leftFootPositionWeight: 0
+  rightFootPositionWeight: 0
+  leftFootRotationWeight: 0
+  rightFootRotationWeight: 0
+  footOffset: {x: 0, y: 0, z: 0}
+  raycastLeftOffset: {x: 0, y: 0, z: 0}
+  raycastRightOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &5818574863643976078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805247728725153664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7449800d12aa6a047883bbc89f36eaee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  move: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  _animator: {fileID: 5752821227605362521}
 --- !u!1 &1813448066914449818
 GameObject:
   m_ObjectHideFlags: 0
